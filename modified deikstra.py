@@ -49,8 +49,8 @@ for i in range(M):
 
 k = int(input())
 start, stop = input().split()
-start = start + '0'
-stop = stop + '0'
+start = start + 'a'
+stop = stop + 'a'
 sh_path = deikstra(G, start)
 path = sh_path[stop]
 # Way = get_way(G, start, stop, path, sh_path)
